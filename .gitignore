@@ -1,0 +1,14 @@
+mirrors/
+worktrees/
+archive/
+.venv/
+__pycache__/
+.DS_Store
+# Everything the bench generates: the store, the report, exports and the nightly log.
+out/
+# Former output directory; never commit it again.
+results/
+# The real target repos; config/repos.example.toml is the committed template.
+config/repos.local.toml
+config/empty-claude/*
+!config/empty-claude/.keep

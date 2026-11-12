@@ -1,0 +1,2 @@
+2026-09-24T12:01:12	script	gpt-6-astra	0	645s	~/.claude/codex-runs/20260924-120112-95304-plan-review-harness-bench.log	plan-review-harness-bench: codex -m gpt-6-astra -c model_reasoning_effort=xhigh review Review an implementation plan against its spec. Read-only; do not edit files.
+2026-09-24T12:54:04	script	gpt-5.6-luna	0	8s	~/.claude/codex-runs/20260924-125404-71880-bench-probe.log	bench-probe: codex exec -m gpt-5.6-luna -c model_reasoning_effort=low --skip-git-repo-check -s read-only --json reply with the word ok	13787	5

@@ -1,0 +1,8 @@
+# Inline: Kevin's real ~/.claude, hooks and skills on (spec §7). The main session is pinned to V's
+# execution model; what the harness dispatches runs on the models the harness chooses.
+name = "Aprime"
+model = "claude-opus-5-5"
+isolated = false
+prompt_prefix = "Lane: Inline.\n\n"
+effort = "high"
+permission_mode = "bypassPermissions"

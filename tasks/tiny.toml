@@ -1,0 +1,9 @@
+# Smoke task on the repo scripts/make-tiny-repo.sh builds. SHAs are stable.
+task_id = "tiny"
+repo = "tiny"
+pr = 0
+base_commit = "0eaa01b995b8ea2cb20052be69bbf39cd2c00953"
+reference_commit = "20714ac7f8969d4997d775c30b85889f4be60ee6"
+raw_ask = "The test in tests/test_calc.py fails. Fix the code so it passes."
+reference_tests = ["tests/test_calc.py"]
+kind = "whole"

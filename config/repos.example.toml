@@ -1,0 +1,21 @@
+# Target repos. setup_cmd and test_cmd run inside a run's checkout.
+# Copy this file to config/repos.local.toml (gitignored) and list your own repos there.
+
+[sample-app]
+path = "~/code/sample-app"
+default_branch = "main"
+integration_branch = "ai-staging"
+setup_cmd = "npm ci"
+test_cmd = "npm test"
+
+# Dropped before attribution (spec §5). Kept by hand; each entry says why.
+# [[sample-app.exclude_sessions]]
+# id = "<session uuid>"
+# reason = "Ran on a feature branch, but its content was unrelated planning."
+
+# Smoke repo built by scripts/make-tiny-repo.sh. System python3 has no pytest, so uv supplies it.
+[tiny]
+path = "mirrors/tiny-src"
+default_branch = "main"
+integration_branch = "main"
+test_cmd = "uv run --quiet --no-project --with pytest python -m pytest -q"

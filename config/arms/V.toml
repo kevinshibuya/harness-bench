@@ -1,0 +1,7 @@
+# Vanilla: stock Claude Code in an empty config dir (spec §6).
+name = "V"
+model = "claude-opus-5-5"
+isolated = true
+prompt_prefix = ""
+effort = "high"
+permission_mode = "bypassPermissions"

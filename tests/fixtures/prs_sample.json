@@ -1,0 +1,8 @@
+[
+  {"number": 23, "title": "fix: tidy error handling", "headRefName": "fix/error-handling", "baseRefName": "ai-staging",
+   "mergedAt": "2026-09-11T06:20:14Z", "mergeCommit": {"oid": "m23"}, "additions": 149, "deletions": 101},
+  {"number": 22, "title": "Promote ai-staging to main", "headRefName": "ai-staging", "baseRefName": "main",
+   "mergedAt": "2026-09-11T03:46:12Z", "mergeCommit": {"oid": "m22"}, "additions": 8527, "deletions": 432},
+  {"number": 21, "title": "feat: inputs", "headRefName": "feat/inputs", "baseRefName": "ai-staging",
+   "mergedAt": "2026-09-08T00:34:32Z", "mergeCommit": {"oid": "m21"}, "additions": 4983, "deletions": 218}
+]
